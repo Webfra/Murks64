@@ -7,9 +7,9 @@ Murks64 - a small and crude, bare-bones (and only partial) "C64 emulator" writte
   - 64K RAM, as well as Basic and Kernal ROM
     - Relies on a ROM listing from https://github.com/mist64/c64ref.git, which is "baked" into the source code.
     - Therefore, the executable can run on its own, without the need to load any files (ROMs etc.)
-    - However, it is possible to load binary ROMs from a subfolder "data". 
+    - However, it is possible to load binary ROMs from a subfolder "data". (No ROMs included here.)
   - "Emulates" The VIC-II rasterline register, which is required for BASIC to start up.
-    - Emulation is probably too strong a word, the register is just inremented every few CPU clock cycles.
+    - Emulation is probably too strong a word, the register is just incremented every few CPU clock cycles.
   - Nothing else! (At least for now.)
     - No VIC-II => No Graphics!
     - No SID, no Datasette or Floppy, no Cartriges...
